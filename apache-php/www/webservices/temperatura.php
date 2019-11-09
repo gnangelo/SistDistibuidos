@@ -1,5 +1,5 @@
 <?php
-$client = new SoapClient('http://www.webservicex.net/ConvertTemperature.asmx?WSDL');
+$client = new SoapClient('http://localhost/webservices/servidor.php?wsdl');
  
 $function = 'ConvertTemp';
  

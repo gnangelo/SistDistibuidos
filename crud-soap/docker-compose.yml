@@ -37,3 +37,4 @@ services:
             MYSQL_ROOT_PASSWORD: test
 volumes:
     persistent:
+    

@@ -2,7 +2,7 @@
     include('lib/nusoap.php');
     $cliente = new nusoap_client('http://localhost/webservices/servidor.php?wsdl');
     
-    $parametros = array('nome'=>'Geraldo', 
+    $parametros = array('nome'=>'Daniel', 
                         'idade'=>35);
     
     $resultado = $cliente->call('cadastrar', $parametros);
